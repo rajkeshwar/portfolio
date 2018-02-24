@@ -12,6 +12,7 @@ import { AwardsComponent } from './awards/awards.component';
 import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 import { ResumeComponent } from './resume/resume.component';
+import { IntroComponent } from './intro/intro.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ResumeComponent } from './resume/resume.component';
     AwardsComponent,
     EducationComponent,
     ContactComponent,
-    ResumeComponent
+    ResumeComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,

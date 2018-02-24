@@ -8,9 +8,11 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { ResumeComponent } from './resume/resume.component';
+import { IntroComponent } from './intro/intro.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'about', pathMatch: 'full' },
+  { path: '', redirectTo: 'intro', pathMatch: 'full' },
+  { path: 'intro', component: IntroComponent },
   { path: 'about', component: AboutComponent },
   { path: 'experience', component: ExperienceComponent },
   { path: 'projects', component: ProjectsComponent },
