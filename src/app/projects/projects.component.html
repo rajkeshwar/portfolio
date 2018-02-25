@@ -10,7 +10,7 @@
                 <div class="card-content"><span class="card-title activator teal-text hoverline">BlogSpire<i class="mdi-navigation-more-vert right"></i></span>
                   <p>Blogging web app created for the Engineering team at WeSpire.</p>
                 </div>
-                <div class="card-reveal" [ngStyle]="{'transform': project.isReveld ? 'translateY(-400px)':'translateY(0px)'}">
+                <div class="card-reveal" [@slideUp]="project.isReveld">
                   <span class="card-title brown-text">Accomplishments
                     <i class="mdi-navigation-close right" (click)="project.isReveld=false"></i>
                   </span>

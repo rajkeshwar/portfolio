@@ -378,7 +378,7 @@ small { display: none;}
 	}
 	i.mdi-navigation-close.right {
 	  position: relative;
-	  bottom: 35px;
+	  bottom: 9px;
 	}
 	#contact a:not(.btn-floating) {
     text-align: center;
@@ -391,4 +391,9 @@ small { display: none;}
 	    text-align: center;
 	    margin: 0 auto;
 	}
+}
+
+
+#sidenav-overlay {
+    z-index: 1;
 }
