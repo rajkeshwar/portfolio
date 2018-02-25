@@ -14,6 +14,7 @@ import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 import { ResumeComponent } from './resume/resume.component';
 import { IntroComponent } from './intro/intro.component';
+import { CommonPipesModule } from './pipes/common.pipe.module';
 
 
 @NgModule({
@@ -27,11 +28,12 @@ import { IntroComponent } from './intro/intro.component';
     EducationComponent,
     ContactComponent,
     ResumeComponent,
-    IntroComponent
+    IntroComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CommonPipesModule,
     BrowserAnimationsModule
   ],
   providers: [],

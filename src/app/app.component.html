@@ -34,7 +34,11 @@
 <nav class="hide-on-large only"> 
   <ul id="slide-out" style="width:190px" #sidenav
     class="side-nav" [@slide]="isNavOpen">
-    <!-- class="side-nav" [ngStyle]="{'left':isNavOpen ? '0px':'-200px'}"> -->
+    <li class="bold"><a aria-label="Navigate to the intro section" 
+      routerLink="intro" routerLinkActive="active" (click)="openNav(false)"
+      class="waves-effect waves-dark teal-text">
+      <i class="mdi-action-description small"></i><span>Intro</span></a>
+    </li>
     <li class="bold" *ngFor="let route of routes">
       <a [routerLink]="route.path" routerLinkActive="active" (click)="openNav(false)"
         class="waves-effect waves-dark {{route.theme}}">

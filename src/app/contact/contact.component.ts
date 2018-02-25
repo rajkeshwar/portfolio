@@ -11,8 +11,8 @@ export class ContactComponent implements OnInit {
     { 
       tooltip:'Email Rajkeshwar', 
       icon: 'fa fa-envelope',
-      label: 'rajkeshwar.pd@gmail.com', 
-      href: 'mailto:rajkeshwar.pd@gmail.com' 
+      label: 'rajkeshwar83@gmail.com', 
+      href: 'mailto:rajkeshwar83@gmail.com' 
     },
     { 
       tooltip:'View Rajkeshwar on Github', 
