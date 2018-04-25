@@ -16,7 +16,7 @@ script:
   - ng build --prod --base-href "https://rajkeshwar.github.io/"
 
 after_success:
-  - ngh --no-silent --repo=https://GH_TOKEN@github.com:rajkeshwar/rajkeshwar.github.io.git
+  - ngh --no-silent --repo=https://GH_TOKEN@github.com:rajkeshwar/portfolio.git
 
 notifications:
   email:
