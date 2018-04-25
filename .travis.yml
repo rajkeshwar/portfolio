@@ -13,10 +13,10 @@ before_script:
   - npm install -g @angular/cli
 
 script:
-  - ng build --prod --base-href "https://rajkeshwar.github.io/"
+  - ng build --prod --base-href "https://rajkeshwar.github.io/portfolio/"
 
 after_success:
-  - ngh --no-silent --repo=https://GH_TOKEN@github.com:rajkeshwar/portfolio.git
+  - ngh --repo=https://GH_TOKEN@github.com:rajkeshwar/portfolio.git
 
 notifications:
   email:
